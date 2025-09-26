@@ -1,0 +1,10 @@
+birthday_year=int(input("Введіть рік народження:"))
+birthday_month=int(input("Введіть місяць народження:"))
+now_year=int(input("Введіть теперішній рік:"))
+now_month=int(input("Введіть теперішній місяць:"))
+vik=now_year-birthday_year
+if now_month < birthday_month:
+    vik-=1
+print (vik)
+if now_month==birthday_month:
+    print ("a full year has passed")
