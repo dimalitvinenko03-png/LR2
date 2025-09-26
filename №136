@@ -1,0 +1,12 @@
+distance=200
+bak=int(input("Введіть розмір вашого бензобаку в літрах:"))
+current_amount_gasoline= int(input("Введіть кількість пального в бензобаку (у відсотках):"))/100
+consumption=int(input("Введіть скільки кілометрів проходить автомобіль на одному літрі палива:"))
+balance= ((bak*current_amount_gasoline)*consumption)
+print (f"You can drive another {balance} kilometers")
+print (f"Next refueling after {distance} kilometers.")
+if balance >= 200:
+    print("You can wait until the next refueling")
+
+else :
+    print ("FILL IN NOW!")
