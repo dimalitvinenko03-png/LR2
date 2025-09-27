@@ -1,0 +1,9 @@
+rez1 = int(input("Введіть результат №1: "))
+rez2 = int(input("Введіть результат №2: "))
+rez3 = int(input("Введіть результат №3: "))
+
+avarage = (rez1 + rez2 + rez3) / 3
+print(avarage)
+
+if avarage > 95:
+    print("Congratulations! That is a great average!")
