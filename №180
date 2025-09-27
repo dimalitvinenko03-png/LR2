@@ -1,0 +1,6 @@
+n1=int(input("Введіть число №1:"))
+n11=int (str(n1%100)[::-1])
+if n1//100==n11 :
+    print ("True")
+else :
+    print ("False")
