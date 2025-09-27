@@ -1,0 +1,7 @@
+n=int(input("Введіть число:"))
+if n%10==1 and n%100!=11 :
+    print (f"{n} hryvnia")
+elif n%10 in (2,3,4) and n % 100 not in (12,13,14) :
+    print (f"{n} hryvni")
+else :
+    print (f"{n} hryven")
